@@ -1,9 +1,30 @@
 /* general style */
-
+    body{
+        margin: 0;
+        line-height: 1.5;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        outline: none;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    ::before,::after{
+        box-sizing: border-box;
+    }
+    .section{
+        background-color: #f2f2fc;
+        min-height: 100vh;
+    }
+    .main-content{
+        padding-left: 270px;
+    }
 
 /* aside */
 .aside{
     width: 270px;
+    background-color: #fdf9ff;
 }
 
 /* home */
