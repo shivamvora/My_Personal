@@ -39,6 +39,25 @@
     top: 0;
     z-index: 10;
     border-right:1px solid #e8dfec;
+    padding: 30px;
 }
-
+.aside .logo{
+    background-color: #ededed;
+    padding: 30px 0;
+}
+.aside .logo a {
+    font-size: 40px;
+    color: #302e4d;
+}
+.aside .nav{
+    background-color: #ededed;
+    list-style: none;
+    margin: 80px 0;
+}
+.aside .copyright-text{
+    background-color: #ededed;
+}
+.aside .logo a{
+    
+}
 /* home */
