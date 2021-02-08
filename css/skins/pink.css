@@ -6,14 +6,17 @@
     border-right: 4px solid #ec1839;
     border-bottom: 4px solid #ec1839;
 }
+.about .about-content .about-text h3 span,
 .aside .nav li a:hover,
 .aside .nav li a.active{
     color: #ec1839;
 }
 
+.section-title h2::after,
+.section-title h2::before,
 .aside .nav-toggler span,
 .aside .nav-toggler span::before,
 .aside .nav-toggler span::after,
-/* .home .intro .social-links a*/{ 
+.home .intro .social-links a{
     background-color: #ec1839;
 }

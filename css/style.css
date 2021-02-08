@@ -27,6 +27,55 @@
         display: block;
         padding: 0 30px;
     }
+    .section .container{
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    .section-title{
+        flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+    .section-title h2{
+        font-size: 40px;
+        color: #302e4d;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        position: relative;
+
+    }
+    .section-title h2::before{
+        content: '';
+        height: 4px;
+        width: 50px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    .section-title h2::after{
+        content: '';
+        height: 4px;
+        width: 25px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin-top: 8px;
+    }
+    .row{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        position: relative;
+        
+    }
+    .padd-15{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .main-content{
         padding-left: 270px;
     }
@@ -43,6 +92,9 @@
     }
     
     /* aside */
+    .hidden{
+        display: none!important;
+    }
 
 .aside{
     width: 270px;
@@ -210,9 +262,34 @@ left: 0;
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    background-color: rgb(128, 121, 133);
+    
 }
 .home .intro .social-links a :hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+/* About section */
+.about .about-content{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.about .about-content .about-text{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.about .about-content .about-text h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #302e4d;
+}
+.about .about-content .about-text p{
+    font-size: 16px;   
+    line-height: 25px;
+    color: #504e70;
+    margin: 0;
+    
 }
