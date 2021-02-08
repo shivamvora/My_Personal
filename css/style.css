@@ -194,3 +194,25 @@ left: 0;
     line-height: 22px;
     color: #504e70;
 }
+.home .intro .social-links {
+    margin-top: 25px;
+    
+}
+.home .intro .social-links a {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    color: #ffffff;
+    margin: 0 4px;
+    border-radius: 50%;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: rgb(128, 121, 133);
+}
+.home .intro .social-links a :hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
